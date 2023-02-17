@@ -28,11 +28,7 @@
 
 6. **约定俗成的命名规范（选学）**
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 14.51.46.png" alt="截屏2022-08-12 14.51.46" style="zoom:30%;" />
-
 ## 01 栈-堆关系（选学）
-
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 14.36.33.png" style="zoom:30%;" />
 
 
 
@@ -132,25 +128,20 @@ str(3)
 
 ### 3. 基本运算符
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.15.32.png" alt="截屏2022-08-12 15.15.32" style="zoom:40%;" />
 
 ```python
 divmod(13, 3) # 同时得到商和余数
 ```
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.47.03.png" alt="截屏2022-08-12 15.47.03" style="zoom:40%;" />
 
 ### 4. 自运算（增强型赋值）
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.26.46.png" alt="截屏2022-08-12 15.26.46" style="zoom:40%;" />
 
 ⚠️运算符中间不能有空格
 
 ### 5. 比较运算符
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.38.42.png" alt="截屏2022-08-12 15.38.42" style="zoom:40%;" />
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.39.01.png" alt="截屏2022-08-12 15.39.01" style="zoom:40%;" />
 
 
 
@@ -158,11 +149,9 @@ divmod(13, 3) # 同时得到商和余数
 
 ### 6. 逻辑运算符
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.41.39.png" alt="截屏2022-08-12 15.41.39" style="zoom:40%;" />
 
 ### 7. 同一运算符
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 15.42.35.png" alt="截屏2022-08-12 15.42.35" style="zoom:40%;" />
 
 ⚠️ 同一运算符的判断根据为对象地址，效率更高
 
@@ -247,7 +236,6 @@ a = 'love'*3 # lovelovelove
 
 用 **\\+特殊字符** 实现一些特别功能
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-12 23.32.18.png" alt="截屏2022-08-12 23.32.18" style="zoom:40%;" />
 
 ## 02 字符串的切片检索与变更
 
@@ -284,11 +272,9 @@ a[-len(a)] # a
 
 正向操作：
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-14 7.09.51.png" alt="截屏2022-08-14 7.09.51" style="zoom:40%;" />
 
 反向操作：
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-14 7.10.48.png" alt="截屏2022-08-14 7.10.48" style="zoom:40%;" />
 
 ⚠️ 偏移量不在范围内则会报错
 
@@ -347,7 +333,6 @@ print('My age: %d' % (x1)) # My age: 18
 
 ⚠️ %d 是可以替换的，拥有其含义
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-15 17.21.59.png" alt="截屏2022-08-15 17.21.59" style="zoom:60%;" />
 
 ### 2. format()
 
@@ -654,11 +639,9 @@ print(sum(a)) # 57
 
 正向操作：
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-20 23.48.47.png" alt="截屏2022-08-20 23.48.47" style="zoom:40%;" />
 
 反向操作：
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-20 23.49.39.png" alt="截屏2022-08-20 23.49.39" style="zoom:40%;" />
 
 ⚠️ 起始偏移量小于0 则会当做0，终止偏移量大于“长度-1”会被当成”长度-1”，不会报错
 
@@ -1127,13 +1110,10 @@ print(x, y, z) # SU 20 student
 
 ### 3. 字典核心底层原理
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-24 15.21.40.png" alt="截屏2022-08-24 15.21.40" style="zoom:50%;" />
 
 #### 3.1 将一个键值对放进字典的底层过程
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-24 15.22.28.png" alt="截屏2022-08-24 15.22.28" style="zoom:50%;" />
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-24 15.22.51.png" alt="截屏2022-08-24 15.22.51" style="zoom:50%;" />
 
 **扩容：**
 
@@ -1143,9 +1123,7 @@ python 会根据散列表的拥挤程度扩容。“扩容”指的是:创造更
 
 #### 3.2 根据键查找“键值对”的底层过程
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-24 15.24.43.png" alt="截屏2022-08-24 15.24.43" style="zoom:50%;" />
 
-<img src="/Users/karax/Library/Application Support/typora-user-images/截屏2022-08-24 15.25.15.png" alt="截屏2022-08-24 15.25.15" style="zoom:70%;" />
 
 #### 3.3 字典的底层逻辑总结
 
